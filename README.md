@@ -1,4 +1,4 @@
-# 📈 DashFinance API (.NET 9 / ASP.NET Core)
+# DashFinance API
 
 API RESTful desenvolvida em C# e ASP.NET Core com foco no consumo assíncrono de serviços externos de mercado financeiro, processamento concorrente e orquestração de dados de cotação de moedas em tempo real.
 
@@ -36,11 +36,10 @@ Client (Postman/Frontend)
         │                          ► [GET /last/BRL-USD] (Paralelo)
         ▼
  ResumoDashboard (JSON DTO + Métricas de Resposta)
-
-
+```
 ---
 
-## 🛠️ Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 * [.NET 10.0 SDK](https://dotnet.microsoft.com/download) ou superior
@@ -51,10 +50,11 @@ Client (Postman/Frontend)
    ```bash
    git clone [https://github.com/seu-usuario/cotacao-moeda-api.git](https://github.com/seu-usuario/cotacao-moeda-api.git)
    cd cotacao-moeda-api/DashFinanceApi
-
+   ```
 2. Restaure as dependências e rode a aplicação:
+   ```
     dotnet restore
     dotnet run
-
+   ```
 3. Acesse a documentação Swagger/OpenAPI pela URL local gerada no terminal:
     http://localhost:{PORTA}/swagger
